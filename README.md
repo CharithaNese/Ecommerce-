@@ -21,3 +21,7 @@ This project focuses on analyzing e-commerce customer data to perform customer s
 
 ### Files
 - Charitha Ecommerce file (1).ipynb – contains data preprocessing, segmentation, and prediction workflow
+## SQL Sample Queries
+
+The `sample queries` folder contains SQL examples demonstrating how to aggregate customer-level features such as purchase frequency, total spending, and last purchase date. These features are conceptually the same as those used in the Python-based clustering and predictive modeling in this project.
+
