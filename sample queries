@@ -1,0 +1,8 @@
+-- Customer-level feature generation
+SELECT
+    customer_id,
+    COUNT(order_id) AS purchase_frequency,
+    SUM(order_amount) AS total_spent,
+    MAX(order_date) AS last_purchase_date
+FROM orders
+GROUP BY customer_id;
